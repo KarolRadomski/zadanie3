@@ -1,0 +1,13 @@
+.container {
+  width: 25%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.buttons {
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}

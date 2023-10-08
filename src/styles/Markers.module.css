@@ -1,0 +1,21 @@
+.selectedMarker {
+  color: #003cff;
+}
+.greenMarker {
+  color: #008000;
+}
+.orangeMarker {
+  color: #ffa500;
+}
+
+.redMarker {
+  color: #ff0000;
+}
+
+.grayMarker {
+  color: #818181;
+}
+
+.blackMarker {
+  color: #000000;
+}

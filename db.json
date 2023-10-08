@@ -1,0 +1,114 @@
+{
+  "devices": [
+    {
+      "id": 1,
+      "name": "ONT Device 2",
+      "type": "ONT",
+      "lat": 50.972264889367494,
+      "lon": 21.81815731247194,
+      "serialNumber": "1234567890",
+      "status": "active",
+      "description": "ONT sample",
+      "signal": "-24",
+      "iconID": "1",
+      "connectedTo": "4"
+    },
+    {
+      "id": 2,
+      "name": "ONT Device 3",
+      "type": "ONT",
+      "lat": 50.90303283111257,
+      "lon": 20.819051578468198,
+      "serialNumber": "123456765",
+      "status": "active",
+      "description": "Sample Device",
+      "signal": "-22",
+      "iconID": "1",
+      "connectedTo": "4"
+    },
+    {
+      "lat": 52.261433597272294,
+      "lon": 21.017424276958046,
+      "status": "active",
+      "signal": "-20",
+      "name": "OLT Device",
+      "type": "OLT",
+      "serialNumber": "234243",
+      "description": "OLT Device",
+      "iconID": "3",
+      "id": 3
+    },
+    {
+      "lat": 51.68617954855624,
+      "lon": 21.401248842852326,
+      "status": "active",
+      "signal": "-22",
+      "name": "Spliter 1",
+      "type": "Spliter",
+      "serialNumber": "283213",
+      "description": "First Spliter",
+      "iconID": "2",
+      "id": 4,
+      "connectedTo": "3"
+    },
+    {
+      "lat": 51.25503952021694,
+      "lon": 22.41218827143179,
+      "status": "active",
+      "signal": "-20",
+      "name": "ONT Device 1",
+      "type": "ONT",
+      "serialNumber": "123",
+      "connectedTo": "4",
+      "description": "",
+      "iconID": "1",
+      "id": 5
+    }
+  ],
+  "icons": [
+    {
+      "id": "1",
+      "name": "ONT",
+      "for": [
+        "ONT"
+      ],
+      "html": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' fill='currentColor' class='bi bi-modem-fill' viewBox='0 0 16 16'> <path d='M7 0a1.5 1.5 0 0 0-1.5 1.5v11a1.5 1.5 0 0 0 1.404 1.497c-.35.305-.872.678-1.628 1.056A.5.5 0 0 0 5.5 16h5a.5.5 0 0 0 .224-.947c-.756-.378-1.278-.75-1.628-1.056A1.5 1.5 0 0 0 10.5 12.5v-11A1.5 1.5 0 0 0 9 0H7Zm1 3a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm0 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Zm.5 1.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0ZM8 9a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1Z'/></svg>"
+    },
+    {
+      "id": "2",
+      "name": "Spliter",
+      "for": [
+        "Spliter"
+      ],
+      "html": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' style='position:relative; top: -10px' fill='currentColor' class='bi bi-hdd-network-fill' viewBox='0 0 16 16'><path d='M2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h5.5v3A1.5 1.5 0 0 0 6 11.5H.5a.5.5 0 0 0 0 1H6A1.5 1.5 0 0 0 7.5 14h1a1.5 1.5 0 0 0 1.5-1.5h5.5a.5.5 0 0 0 0-1H10A1.5 1.5 0 0 0 8.5 10V7H14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm.5 3a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1z'/></svg>"
+    },
+    {
+      "id": "3",
+      "name": "OLT",
+      "for": [
+        "OLT"
+      ],
+      "html": "<svg xmlns='http://www.w3.org/2000/svg' width='32' height='32' fill='currentColor' class='bi bi-cpu-fill' viewBox='0 0 16 16'><path d='M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z'/><path d='M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z'/></svg>"
+    },
+    {
+      "id": "4",
+      "name": "Marker",
+      "for": [
+        "OLT",
+        "Spliter",
+        "ONT"
+      ],
+      "html": "<svg xmlns='http://www.w3.org/2000/svg' style='position:relative; top: -14px' width='32' height='32' fill='currentColor' class='bi bi-geo-alt-fill' viewBox='0 0 16 16'><path d='M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z'/></svg>"
+    },
+    {
+      "id": "5",
+      "name": "Circle",
+      "for": [
+        "OLT",
+        "Spliter",
+        "ONT"
+      ],
+      "html": "<svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' style='position:relative; top: 5px; left: 8px;' fill='currentColor' class='bi bi-circle-fill' viewBox='0 0 16 16'><circle cx='8' cy='8' r='8'/> </svg>"
+    }
+  ]
+}
